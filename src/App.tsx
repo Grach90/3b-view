@@ -1,25 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { IntlProvider } from "react-intl";
+
+import Navbar from "./Components/Navbar/container";
+
+import en from "../src/translation/en.json";
+import nl from "../src/translation/nl.json";
+
+import "./App.css";
 
 function App() {
+  const [language_key, setLanguageKey] = useState("nl");
+
+  const language = (language_key: string) => {
+    switch (language_key) {
+      case "en":
+        return en;
+      case "nl":
+        return nl;
+    }
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <IntlProvider locale={language_key} messages={language(language_key)}>
+      <Navbar />
+      <div className="App">It works!</div>
+    </IntlProvider>
   );
 }
 

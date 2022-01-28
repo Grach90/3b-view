@@ -1,0 +1,279 @@
+{
+  "boilerplate.Navbar.items.company": "Bedrijf",
+  "boilerplate.Navbar.items.ilscheck": "ILS 1.0 Check",
+  "boilerplate.Navbar.items.formatChange": "Formaat veranderen",
+  "boilerplate.Navbar.items.aboutUs": "Over ons",
+  "boilerplate.Navbar.items.blog": "Blog",
+  "boilerplate.Navbar.items.signIn": "Log in",
+  "boilerplate.Navbar.items.logOut": "Log uit",
+
+  "boilerplate.HomePage.header": "WERK EFFICIENTER",
+  "boilerplate.HomePage.contentFirst": "3B Tools is een applicatie voor Autodesk Revit, waarmee architecten,",
+  "boilerplate.HomePage.contentSecond": "aannemers, Revit modelleurs en constructeurs efficienter kunnen werken",
+  "boilerplate.HomePage.content.li_1": "Registreer uw bedrijf",
+  "boilerplate.HomePage.content.li_2": "Chat met andere gebruikers",
+  "boilerplate.HomePage.content.li_3": "Maak projectmappen aan en beheer projectbestanden",
+  "boilerplate.HomePage.content.li_4": "Verander het formaat van uw 3D model snel en gemakkelijk",
+  "boilerplate.HomePage.content.watchVideoButton": "Bekijk video",
+
+  "boilerplate.Login.header": "Log in",
+  "boilerplate.Login.emailInputLabel": "Email",
+  "boilerplate.Login.passwordInputLabel": "Wachtwoord",
+  "boilerplate.Login.SignInButton": "Log in",
+  "boilerplate.Login.toSignUpLink": "Registrere",
+  "boilerplate.Login.forgotPassword": "Password Vergeten",
+  "boilerplate.Login.errorForgotPassword": "Vul alstublieft uw e-mailadres in",
+  "boilerplate.Login.emptyInput": "Je hebt een leeg e-mailadres of een leeg wachtwoord",
+  "boilerplate.Login.wrongLogin": "Gebruiker met deze gegevens bestaat niet",
+
+  "boilerplate.signup.header": "Maak een account aan",
+  "boilerplate.signup.usernameInputLabel": "Gebruikersnaam",
+  "boilerplate.signup.emailInputLabel": "Email",
+  "boilerplate.signup.passwordInputLabel": "Wachtwoord",
+  "boilerplate.signup.companyNameInputLabel": "Bedrijfsnaam",
+  "boilerplate.signup.RegistrationButton": "Registratie",
+  "boilerplate.signup.toSignInLink": "Aanmelden",
+  "boilerplate.signup.emptyNameError": "Naam is leeg",
+  "boilerplate.signup.nameLengthError": "De lengte van de naam is onjuist",
+  "boilerplate.signup.emptyPasswordError": "Wachtwoord is leeg",
+  "boilerplate.signup.passwordLengthError": "Wachtwoordlengte moet groter zijn dan 5 en kleiner dan 20",
+  "boilerplate.signup.emptyEmailError": "E-mailadres is leeg",
+  "boilerplate.signup.emptyCompanyNameError": "Bedrijfsnaam is leeg",
+
+  "boilerplate.CompanyPage.header": "BEDRIJF EN PROJECTEN",
+  "boilerplate.CompanyPage.downloadButton.title": "Download file(-s)",
+  "boilerplate.CompanyPage.viewerButton.title": "View",
+  "boilerplate.CompanyPage.searchInput.placeholder": "Zoeken",
+  "boilerplate.CompanyPage.compareButton.title": "Bestanden vergelijken",
+  "boilerplate.CompanyPage.ilsCheckButton.title": "ILS 1.0 Check",
+  "boilerplate.CompanyPage.formatChange.title": "Converteer RVT naar IFC en OBJ",
+  "boilerplate.CompanyPage.gridTableButton.title": "Grid weergave",
+  "boilerplate.CompanyPage.inlineTableButton.title": "Inline weergave",
+  "boilerplate.CompanyPage.formatChangeSelect": "Formaat",
+  "boilerplate.CompanyPage.formatChangeSelect.allOption": "ALLES",
+  "boilerplate.CompanyPage.uploadButton": "Upload",
+  "boilerplate.CompanyPage.uploadButtonTitle": "Upload",
+  "boilerplate.CompanyPage.uploadButtonTitle.noPermission": "Je hebt geen toestemming",
+  "boilerplate.CompanyPage.addProject": "Project toevoegen",
+  "boilerplate.CompanyPage.addProject.title": "Project toevoegen",
+  "boilerplate.CompanyPage.deleteProject.title": "Project(-en) verwijderen",
+  "boilerplate.CompanyPage.deleteProject.cancel.title": "Annuleer",
+  "boilerplate.CompanyPage.markupsCount.title": "Markups tallen",
+  "boilerplate.CompanyPage.issuesCount.title": "Issues tallen",
+  "boilerplate.CompanyPage.project.emptyProject": "Upload project(en) naar deze projectmap",
+  "boilerplate.CompanyPage.project.noProjects": "Maak een projectmap aan",
+  "boilerplate.CompanyPage.project.fileTable.Name": "Naam",
+  "boilerplate.CompanyPage.project.fileTable.fileSize": "Grootte",
+  "boilerplate.CompanyPage.project.fileTable.created": "Aangemaakt",
+  "boilerplate.CompanyPage.project.fileTable.Type": "Type",
+  "boilerplate.CompanyPage.project.fileTable.Version": "Versie",
+  "boilerplate.CompanyPage.project.fileTable.markupsCount": "Markups",
+  "boilerplate.CompanyPage.project.fileTable.issuesCount": "Issues",
+
+  "boilerplate.ilsChecker.uploadInputPlaceholder": "Upload een IFC voor de ILS 1.0 Checker",
+  "boilerplate.ilsChecker.uploadFileButton": "Upload bestand",
+  "boilerplate.ilsChecker.doneButton": "Voltooid",
+
+  "boilerplate.ilsChecker.checkList.header": "Kies de checks om uit te voeren",
+  "boilerplate.ilsChecker.checkList.3_1.header": "3.1 Projectnaam",
+  "boilerplate.ilsChecker.checkList.3_1.listItem": "Zorg voor uniforme en consistente naamgeving voor (discipline) modellen binnen het project.",
+
+  "boilerplate.ilsChecker.checkList.3_2.header": "3.2 Lokale positie en ori\u00EBntatie",
+  "boilerplate.ilsChecker.checkList.3_2.listItem": "De lokale positie van het gebouw is geco\u00F6rdineerd en ligt dicht bij de oorsprong.",
+
+  "boilerplate.ilsChecker.checkList.3_3.header": "3.3 Verdiepingen bouwen en benoemen",
+  "boilerplate.ilsChecker.checkList.3_3.listItem_1": "Zorg ervoor dat binnen een project alle betrokken partijen consequent exact dezelfde naamgeving gebruiken, die> numeriek gesorteerd kan worden met een tekstuele beschrijving.",
+  "boilerplate.ilsChecker.checkList.3_3.listItem_2": "Wijs alle objecten toe aan het juiste niveau.",
+  "boilerplate.ilsChecker.checkList.3_3.listItem_3": "Zorg voor uniforme en consistente naamgeving voor (discipline) modellen binnen het project.",
+
+  "boilerplate.ilsChecker.checkList.3_4.header": "3.4 Correcte gebruik van entiteiten",
+  "boilerplate.ilsChecker.checkList.3_4.listItem": "De lokale positie van het gebouw is geco\u00F6rdineerd en ligt dicht bij de oorsprong.",
+
+  "boilerplate.ilsChecker.checkList.3_5.header": "3.5 Structuur en naamgeving",
+  "boilerplate.ilsChecker.checkList.3_5.listItem_1": "Objecten consistent structureren en benoemen.",
+  "boilerplate.ilsChecker.checkList.3_5.listItem_2": "Voer het TYPE correct in (ifcType, fcObjectType of ifcObjectTypeOverride).",
+  "boilerplate.ilsChecker.checkList.3_5.listItem_3": "Voer (indien van toepassing) ook de naam correct in (ifcNaam of NaamOverride).",
+
+  "boilerplate.ilsChecker.checkList.3_6.header": "3.6 Classificatiesysteem",
+  "boilerplate.ilsChecker.checkList.3_6.listItem_1": "Pas bestaande classificatiesysteem toe dat in het desbetreffende land wordt gebruikt.",
+  "boilerplate.ilsChecker.checkList.3_6.listItem_2": "Wijs aan elk object een elementcode toe.",
+
+  "boilerplate.ilsChecker.checkList.3_7.header": "3.7 Objecten met de juiste materialisatie",
+  "boilerplate.ilsChecker.checkList.3_7.listItem": "Wijs objecten toe met een materiaalbeschrijving (ifcMateriaal).",
+
+  "boilerplate.ilsChecker.checkList.3_8.header": "3.8 Duplicaten en kruispunten",
+  "boilerplate.ilsChecker.checkList.3_8.listItem": "Er zijn geen duplicaten of kruispunten toegestaan. Zorg ervoor dat dit is aangevinkt in IFC",
+
+  "boilerplate.ilsChecker.checkList.4_1.header": "4.1 Draagvermogen",
+  "boilerplate.ilsChecker.checkList.4_1.listItem": "Wijs aan objecten toe (indien van toepassing) met de eigenschap Draagvermogen.",
+
+  "boilerplate.ilsChecker.checkList.4_2.header": "4.2 Is extern",
+  "boilerplate.ilsChecker.checkList.4_2.listItem": "Wijs aan objecten toe (indien van toepassing) de eigenschap Extern.",
+
+  "boilerplate.ilsChecker.checkList.4_3.header": "4.3 Brandclassificaties",
+  "boilerplate.ilsChecker.checkList.4_3.listItem": "Wijs aan objecten toe (indien van toepassing) de eigenschap Brandclassificaties.",
+
+  "boilerplate.ilsChecker.checkList.4_4.header": "4.4 Projectspecifiek",
+  "boilerplate.ilsChecker.checkList.4_4.listItem": "Definieer welke IFC-eigenschappen u gebruikt voor elk specifiek project.",
+
+  "boilerplate.ilsChecker.checkList.checkButton": "UITVOEREN",
+
+  "boilerplate.ilsChecker.progressPage.header": "De ILS 1.0 Check wordt uitgevoerd",
+  "boilerplate.ilsChecker.progressPage.content1": "Wanneer het proces is afgelopen,",
+  "boilerplate.ilsChecker.progressPage.content2": "sturen we alle rapporten naar uw e-mailadres",
+
+  "boilerplate.ilsChecker.complatedPage.header": "De ILS 1.0 Check is voltooid",
+  "boilerplate.ilsChecker.complatedPage.content": "Uw rapport is naar uw e-mailadres gestuurd. Dit ILS bestand kan worden geopend met de 3B Tool: IFC / ILS Check Resultaten",
+  "boilerplate.ilsChecker.complatedPage.downloadButton": "Download het bestand",
+
+  "boilerplate.formatChangePage.header": "Verander het bestandsformaat",
+  "boilerplate.formatChangePage.uploadButton": "Upload Bestand",
+  "boilerplate.formatChangePage.doneButton": "VOLTOOID",
+
+  "boilerplate.formatChange.progressPage.header": "Het bestandsformaat wordt gewijzigd. Dit kan enkele momenten in beslag nemen.",
+
+  "boilerplate.formatChange.complatePage.header": "Het nieuwe bestand kan worden gedownload",
+  "boilerplate.formatChange.complatePage.downloadButton": "Download",
+
+  "boilerplate.addProjectPortal.header": "Een project met deze naam bestaat al",
+  "boilerplate.cantDeletePortal.header": "Je bestand wordt ge-upload, je kunt 't niet verwijderen",
+  "boilerplate.emptyDelete.header": "Kies een project om te verwijderen",
+  "boilerplate.sureToDelete.header": "Weet u zeker dat u wilt verwijderen?",
+  "boilerplate.sureToDelete.confirm": "Ja",
+  "boilerplate.sureToDelete.deny": "Nee",
+
+  "boilerplate.uploadFilePortal.header": "bestand bestaat al",
+  "boilerplate.heavyFilePortal.header": " Bestand is te groot",
+  "boilerplate.wrongFilePortal.header": "Upload een RVT of IFC bestand",
+
+  "boilerplate.ilsCheckFilePortal.header": "ILS 1.0 Check werkt alleen op IFC-bestanden. Kies een geschikt bestand.",
+
+  "boilerplate.ilsCheckListPortal.header": "Geen checks geselecteerd. Kies een check om uit te voeren.",
+
+  "boilerplate.formatChangeFilePortal.header": "Formaat aanpassen werkt alleen op RVT-bestanden. Kies een geschikt bestand.",
+
+  "boilerplate.formatChangeEmptyPortal.header": "Geen bestand gekozen om het formaat van aan te passen. Kies een geschikt bestand.",
+
+  "boilerplate.portals.closeButton": "Annuleer",
+
+  "boilerplate.viewer.staticBarButton.goHomeButton.title": "Home",
+  "boilerplate.viewer.staticBarButton.issuesButton.title": "Issues aanmaken",
+  "boilerplate.viewer.staticBarButton.markupsButton.title": "Markups aanmaken",
+  "boilerplate.viewer.staticBarButton.pdfButton.title": "Bekijk pdf-bestanden",
+
+  "boilerplate.viewer.issues.newIssueButton.text": "Nieuwe issue",
+  "boilerplate.viewer.issues.newIssueButtonAfterClick.text": "Selecteer een element in het model om een 'issue' voor aan te maken.",
+
+  "boilerplate.viewer.issues.colapseContent.header": "#Open Nieuwe issue",
+  "boilerplate.viewer.issues.colapseContent.titleInput.label": "Titel",
+  "boilerplate.viewer.issues.colapseContent.descriptionInput.label": "Omschrijving",
+  "boilerplate.viewer.issues.colapseContent.assignedInput.label": "Toegekend aan",
+  "boilerplate.viewer.issues.colapseContent.dueDateInput.label": "Op te lossen voor",
+  "boilerplate.viewer.issues.colapseContent.saveButton.text": "Opslaan",
+  "boilerplate.viewer.issues.colapseContent.cancelButton.text": "Annuleer",
+
+  "boilerplate.viewer.issuesCardContent.dateLabel": "Datum",
+  "boilerplate.viewer.issuesCardContent.assignedLabel": "Toegekend aan",
+  "boilerplate.viewer.issuesCardContent.descriptionLabel": "Omschrijving",
+
+  "boilerplate.viewer.issuesCardContent.deleteButton.text": "Wissen",
+
+  "boilerplate.viewer.issues.newMarkupButton.text": "Nieuwe markup",
+  "boilerplate.viewer.markupCardContent.layerName.label": "Markup laag",
+  "boilerplate.viewer.markupCardContent.createdBy.label": "Aangemaakt door",
+  "boilerplate.viewer.markupCardContent.createdAt.label": "Aangemaakt op",
+
+  "boilerplate.viewer.markups.actionButtons.saveButton.text": "Opslaan",
+  "boilerplate.viewer.markups.actionButtons.exitButton.text": "Terug",
+  "boilerplate.viewer.markups.actionButtons.getScreenshotButton.text": "Screenshot",
+
+  "boilerplate.viewer.markups.tools.styleChangeButtons.widthLabel": "Markup breedte",
+  "boilerplate.viewer.markups.tools.styleChangeButtons.opacityLabel": "Markup duisternis",
+  "boilerplate.viewer.markups.tools.styleChangeButtons.colorLabel": "Markup kleur",
+
+  "boilerplate.viewer.markupCardContent.deleteButton.text": "Wissen",
+
+  "boilerplate.progressBar.text": "Lading",
+
+  "boilerplate.viewer.issues.backToIssueListBtn.text": "Terug",
+  "boilerplate.viewer.issuesCardContent.IDtitle": "ID",
+  "boilerplate.viewer.issuesCardContent.titleInCard": "Titel",
+  "boilerplate.viewer.issuesCardContent.attachmentTitle": "Bijlagen",
+  "boilerplate.viewer.issuesCardContent.attachmentFirstPart": "Hebben ",
+  "boilerplate.viewer.issuesCardContent.attachmentSecondPart": " Bijlagen",
+  "boilerplate.viewer.issuesCardContent.addNewMarkupTitle": "Voeg nieuwe markeringen toe",
+
+  "boilerplate.viewer.issues.colapseContent.titleTooLong": "De titel is te lang",
+  "boilerplate.viewer.issues.colapseContent.descriptionTooLong": "De beschrijving is te lang",
+  "boilerplate.viewer.issues.colapseContent.dropdownDefaultItem": "Kies een gebruiker",
+  "boilerplate.viewer.issues.colapseContent.needToPutPushpin.title": "U moet een punaise plaatsen om op te slaan",
+
+  "boilerplate.viewer.issues.saveNewIssue.allreadyExistsTitle": "Bestaat al met dezelfde titel. Wijzig het",
+
+  "boilerplate.viewer.issues.issueForMarkup.attachToPushpin": "Bevestig aan punaise",
+  "boilerplate.viewer.issues.issueForMarkup.createPushpinButton": "Maak een punaise",
+
+  "boilerplate.viewer.markupCardContent.attachedToPushpin": "Bevestigd aan punaise",
+
+  "boilerplate.viewer.markupFromPushpin.showAllMarkupsButton": "Toon alle markeringen",
+  "boilerplate.viewer.markupFromPushpin.backToPushpinButton": "Terug naar punaise",
+
+  "boilerplate.viewer.pdfExtension.searchInputPlaceholder": "Zoeken",
+  "boilerplate.viewer.pdfExtension.backTo3DButton": "Terug naar 3D",
+
+  "boilerplate.adminPage.adminNavbar.allUsers": "Alle gebruikers",
+  "boilerplate.adminPage.adminNavbar.project": "Projecten",
+
+  "boilerplate.adminPage.adminContent.allUser.header": "Alle gebruikers",
+  "boilerplate.adminPage.adminContent.filterDropdown.label": "Filters",
+  "boilerplate.adminPage.adminContent.filterDropdown.item.all": "Alle",
+  "boilerplate.adminPage.adminContent.filterDropdown.item.3b": "3B Manager",
+  "boilerplate.adminPage.adminContent.filterDropdown.item.project": "Project Manager",
+  "boilerplate.adminPage.adminContent.filterDropdown.item.member": "Lid",
+
+  "boilerplate.adminPage.adminContent.project.header": "Alle Projecten",
+
+  "boilerplate.adminPage.userInformation.contact.label.country": "Land",
+  "boilerplate.adminPage.userInformation.contact.label.efficiency": "Efficiëntie",
+  "boilerplate.adminPage.userInformation.contact.label.email": "Email",
+  "boilerplate.adminPage.userInformation.contact.label.tel": "Tel.",
+
+  "boilerplate.adminPage.userInformation.activities.label.project": "Project",
+  "boilerplate.adminPage.userInformation.activities.label.files": "Geüploade bestanden",
+
+  "boilerplate.adminPage.userInformation.action.button.role": "Rol",
+  "boilerplate.adminPage.userInformation.action.button.rights": "Rechten",
+
+  "boilerplate.adminPage.setUserRole.header.firstPart": "In welke rol zie je ",
+  "boilerplate.adminPage.setUserRole.header.secondPart": "in je project?",
+
+  "boilerplate.adminPage.setUserRole.dropdown.placeholder": "Kies een rol",
+  "boilerplate.adminPage.setUserRole.dropdown.item.3b": "3B manager",
+  "boilerplate.adminPage.setUserRole.dropdown.item.project": "Project manager",
+  "boilerplate.adminPage.setUserRole.dropdown.item.memeber": "Lid",
+
+  "boilerplate.adminPage.setUserRole.action.button.send": "Sturen",
+
+  "boilerplate.adminPage.userRoleChanged.header": "Rol veranderd",
+
+  "boilerplate.adminPage.userInformation.userRights.head": "Project",
+
+  "boilerplate.adminPage.userInformation.userRights.upload": "Mogelijkheid om te uploaden",
+  "boilerplate.adminPage.userInformation.userRights.delete": "Mogelijkheid om documenten te verwijderen",
+  "boilerplate.adminPage.userInformation.userRights.compare": "Vergelijk goed",
+  "boilerplate.adminPage.userInformation.userRights.watch": "Mogelijkheid om te kijken",
+  "boilerplate.adminPage.userInformation.userRights.invite": "Recht om uit te nodigen",
+  "boilerplate.adminPage.userInformation.userRights.tools": "Het recht om tools te gebruiken",
+
+  "boilerplate.adminPage.userInformation.userFiles.header": "Geüploade bestanden",
+
+  "boilerplate.adminPage.setUserRights.header.firstPart": "Welke rechten geeft u ",
+  "boilerplate.adminPage.setUserRights.header.secondPart": "in je project?",
+
+  "boilerplate.adminPage.userRightsChanged.header": "Rechten veranderd",
+
+  "boilerplate.adminPage.rightSideContent.button.back": "Terug",
+
+  "boilerplate.adminPage.adminContent.button.title.delete": "Verwijderen",
+  "boilerplate.adminPage.Projects.title.allProjects": "Alle projecten"
+}

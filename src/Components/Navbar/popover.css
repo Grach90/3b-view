@@ -1,0 +1,86 @@
+.popover {
+  width: 350px;
+  height: 0px;
+  margin-right: 3%;
+}
+
+.userPopover {
+  margin-right: 70px;
+}
+
+.popover-header {
+  color: white;
+  align-items: center;
+}
+
+.popover-header img {
+  width: 45px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.popover-inner h3 {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  background: black;
+  border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -ms-border-radius: 10px 10px 0 0;
+  -o-border-radius: 10px 10px 0 0;
+}
+
+.popover-inner {
+  background: black;
+  border: 1px solid white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.popoverItem {
+  height: 35px;
+  padding: 7px;
+}
+
+.popoverItem a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+.popoverItem a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.popoverItem:hover {
+  background: #707070;
+}
+
+.popoverItem button {
+  color: white;
+  font-size: 12px;
+}
+
+.popoverItem:last-child {
+  height: 35px;
+  padding: 10px 5px;
+}
+
+.dropdown-toggle::after {
+display:none;
+}
+
+.show>.btn-secondary.dropdown-toggle:focus{
+box-shadow: none;
+}
+
+.btn-secondary.dropdown-toggle:focus{
+  box-shadow: none;
+  }

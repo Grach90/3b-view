@@ -1,0 +1,629 @@
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(/src/fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(/src/fonts/Montserrat-Regular.ttf);
+}
+
+.username {
+  font-family: "Montserrat-Regular";
+}
+
+.nav {
+  background: black;
+  height: 80px;
+  z-index: 5;
+}
+
+.container {
+  max-width: 1820px;
+}
+
+.logo {
+  border-right: 1px solid white;
+  padding-right: 20px;
+}
+
+.logo1 {
+  padding-right: 20px;
+}
+
+.miniMenu {
+  background: black;
+  z-index: 2;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Montserrat-Regular";
+}
+
+.navLinkLight {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Montserrat-Regular";
+}
+
+.navLink:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.navLinkLight:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.active {
+  border-bottom: 2px solid white;
+  font-family: "Montserrat-SemiBold";
+}
+
+.activeLight {
+  border-bottom: 2px solid black;
+  font-weight: bold;
+}
+
+button {
+  background: unset;
+  border: none;
+  outline-style: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.signInFont {
+  font-family: "Montserrat-Regular";
+}
+
+.user button img {
+  width: 30px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.ul {
+  height: 80px;
+}
+
+.ul1 {
+  min-width: 0px;
+}
+
+.ulIn {
+  height: 80px;
+}
+
+.ulIn1 {
+  min-width: 0px;
+}
+
+.dropMenu {
+  background: #111111;
+  color: #bfbfbf;
+}
+
+.dropMenuLight {
+  background: white;
+  color: black;
+}
+
+.dropdown {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.dropdownLight {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.dropdownIn {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.dropdownInLight {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.dropdownBtn {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.dropdownBtnLight {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.dropdown:hover {
+  background-color: rgb(35, 35, 35);
+  border: none;
+}
+
+.dropdownLight:hover {
+  background-color: #dfdfdf;
+  border: none;
+}
+
+.dropdownItem {
+  width: 100%;
+  color: #bfbfbf;
+}
+
+.dropdownItem:hover {
+  background: #272727;
+  color: #bfbfbf;
+}
+
+.dropdownItemLight {
+  color: black;
+}
+
+.dropdownItemLight:hover {
+  background-color: #bfbfbf;
+}
+
+.modeBtn {
+  padding: 0;
+  color: white;
+  border: 1px solid white;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+}
+
+.modeBtnLight {
+  padding: 0;
+  color: white;
+  border: 1px solid black;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+}
+
+.modeBtnIn {
+  padding: 0;
+  color: white;
+  border: 1px solid white;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+}
+
+.modeBtnInLight {
+  padding: 0;
+  color: white;
+  border: 1px solid black;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+}
+
+.modeBtn:hover {
+  background-color: rgb(35, 35, 35);
+  border: none;
+}
+
+.modeBtnLight:hover {
+  background-color: #dfdfdf;
+  border: none;
+}
+
+.logOutLabel {
+  color: #cccccc;
+  cursor: pointer;
+  margin-bottom: 0px;
+  width: 43px;
+  height: 43px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.logOutLabel:hover {
+  background-color: rgb(35, 35, 35);
+  border: none;
+}
+
+.logOutLabelLight:hover {
+  background-color: #dfdfdf;
+  border: none;
+}
+
+.logOutLabelLight {
+  color: #cccccc;
+  cursor: pointer;
+  margin-bottom: 0px;
+  width: 43px;
+  height: 43px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.signInBtn {
+  width: 164px;
+  height: 45px;
+  background-color: #931b80;
+  color: white;
+  font-size: 18px;
+}
+
+.text_of_logo {
+  font-size: 19px;
+  font-family: "Montserrat-SemiBold";
+  margin-left: 7px;
+}
+
+.toggleButton {
+  background: unset;
+  border: none;
+  outline-style: none;
+}
+
+.rightBorder {
+  border-right: 1px solid white;
+}
+
+.rightBorderDark {
+  border-right: 1px solid black;
+}
+
+.colapseBar {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 199px;
+  z-index: 5;
+  background: black;
+  border-top: 1px solid white;
+  box-shadow: 1px 1px 5px grey;
+}
+
+.colapseBarLight {
+  position: absolute;
+  top: 86px;
+  left: 0;
+  width: 100%;
+  height: 199px;
+  z-index: 5;
+  background: white;
+  box-shadow: 1px 1px 5px black;
+}
+
+.flagStyle {
+  width: 53px;
+  left: -10px;
+  position: relative;
+}
+
+.flagStyleIn {
+  width: 53px;
+  left: -10px;
+  position: relative;
+}
+
+.languageDrop {
+  background: unset;
+  color: #bfbfbf;
+  border: none;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 0;
+}
+
+.languageDropIn {
+  background: unset;
+  color: #bfbfbf;
+  border: none;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 0;
+}
+
+.logoContainer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.smallToolsDrop {
+  background: unset;
+  color: #bfbfbf;
+  border: none;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 0;
+}
+
+.smallToolsDrop img {
+  width: 33px;
+  position: relative;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  .container {
+    max-width: 1100px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .modeBtn {
+    margin-top: 5px;
+  }
+
+  .modeBtnLight {
+    margin-top: 5px;
+  }
+
+  .dropdown {
+    margin-top: 5px;
+  }
+
+  .dropdownLight {
+    margin-top: 5px;
+  }
+
+  .signInBtn {
+    width: 130px;
+    height: 40px;
+  }
+
+  .modeBtnIn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .modeBtnInLight {
+    width: 40px;
+    height: 40px;
+  }
+
+  .dropdownIn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .dropdownInLight {
+    width: 40px;
+    height: 40px;
+  }
+
+  .flagStyleIn {
+    width: 50px;
+    left: -10px;
+  }
+
+  .languageDropIn {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .navLink {
+    font-size: 14px;
+  }
+
+  .navLinkLight {
+    font-size: 14px;
+  }
+
+  .signInBtn {
+    width: 110px;
+    font-size: 16px;
+    height: 35px;
+  }
+
+  .dropdownIn {
+    width: 35px;
+    height: 35px;
+  }
+
+  .dropdownInLight {
+    width: 35px;
+    height: 35px;
+  }
+
+  .modeBtnIn {
+    width: 35px;
+    height: 35px;
+  }
+
+  .modeBtnInLight {
+    width: 35px;
+    height: 35px;
+  }
+
+  .flagStyleIn {
+    width: 42px;
+    left: -8px;
+  }
+
+  .languageDropIn {
+    width: 25px;
+    height: 25px;
+  }
+
+  .modeBtnImg {
+    width: 23px;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  .rightBorder {
+    border: none;
+  }
+
+  .rightBorderDark {
+    border: none;
+  }
+
+  .ul {
+    height: 80px;
+    display: grid;
+    justify-items: center;
+  }
+
+  .navItem {
+    width: 100%;
+  }
+
+  .navItem a {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .navLink {
+    font-size: 18px;
+    margin: 8px auto 8px;
+    border-bottom: 1px solid #d1d1d1;
+  }
+
+  .navLinkLight {
+    font-size: 18px;
+    margin: 8px auto 8px;
+    border-bottom: 1px solid #d1d1d1;
+  }
+
+  .ul li:last-child a {
+    border-bottom: none;
+  }
+
+  .signInBtn {
+    border-bottom: none;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  .dropMenuStyle {
+    top: 0;
+    left: -289px;
+    width: 275px;
+  }
+
+  .signInBtn {
+    width: 90px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 501px) {
+  .signInBtn {
+    width: 75px;
+  }
+
+  .logo {
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .dropdownIn {
+    width: 30px;
+    height: 30px;
+  }
+
+  .dropdownInLight {
+    width: 30px;
+    height: 30px;
+  }
+
+  .modeBtnIn {
+    width: 30px;
+    height: 30px;
+  }
+
+  .modeBtnInLight {
+    width: 30px;
+    height: 30px;
+  }
+
+  .flagStyleIn {
+    width: 38px;
+    left: -8px;
+    top: -1px;
+  }
+
+  .languageDropIn {
+    width: 22px;
+    height: 22px;
+  }
+
+  .modeBtnImg {
+    width: 20px;
+  }
+
+  .signInBtn {
+    width: 70px;
+    height: 30px;
+  }
+
+  .text_of_logo {
+    font-size: 16px;
+    margin-left: 5px;
+  }
+
+  .logoSize {
+    width: 20px;
+  }
+
+  .logoContainer {
+    padding-right: 5px;
+    padding-left: 7px;
+  }
+
+  .barItem {
+    padding-left: 0.25rem !important;
+    padding-right: 0.25rem !important;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .dropdownItemLight {
+    padding: 0.25rem 0.5rem;
+  }
+
+  .dropMenuStyle {
+    top: 0;
+    left: -260px;
+    width: 245px;
+  }
+}

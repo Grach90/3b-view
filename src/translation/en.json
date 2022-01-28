@@ -1,0 +1,279 @@
+{
+  "boilerplate.Navbar.items.company": "Company",
+  "boilerplate.Navbar.items.ilscheck": "ILS 1.0 Check",
+  "boilerplate.Navbar.items.formatChange": "Format Change",
+  "boilerplate.Navbar.items.aboutUs": "About Us",
+  "boilerplate.Navbar.items.blog": "Blog",
+  "boilerplate.Navbar.items.signIn": "Sign In",
+  "boilerplate.Navbar.items.logOut": "Log Out",
+
+  "boilerplate.HomePage.header": "WORK MORE EFFICIENT",
+  "boilerplate.HomePage.contentFirst": "3B Tools is a Dutch application for Autodesk Revit, helps architects,",
+  "boilerplate.HomePage.contentSecond": "contractors, architectural modellers and constructors work more efficient",
+  "boilerplate.HomePage.content.li_1": "Create your company",
+  "boilerplate.HomePage.content.li_2": "Chat with other users",
+  "boilerplate.HomePage.content.li_3": "Create folders and control all files",
+  "boilerplate.HomePage.content.li_4": "Change the format of your 3D model",
+  "boilerplate.HomePage.content.watchVideoButton": "Watch Video",
+
+  "boilerplate.Login.header": "Sign in",
+  "boilerplate.Login.emailInputLabel": "Email",
+  "boilerplate.Login.passwordInputLabel": "Password",
+  "boilerplate.Login.SignInButton": "Sign in",
+  "boilerplate.Login.toSignUpLink": "Sign up",
+  "boilerplate.Login.forgotPassword": "Forgot Password",
+  "boilerplate.Login.errorForgotPassword": "Pleas enter your email",
+  "boilerplate.Login.emptyInput": "You have a empty email or empty password",
+  "boilerplate.Login.wrongLogin": "User with this data is not exists",
+
+  "boilerplate.signup.header": "Create an account",
+  "boilerplate.signup.usernameInputLabel": "Username",
+  "boilerplate.signup.emailInputLabel": "Email",
+  "boilerplate.signup.passwordInputLabel": "Password",
+  "boilerplate.signup.companyNameInputLabel": "Company Name",
+  "boilerplate.signup.RegistrationButton": "Registration",
+  "boilerplate.signup.toSignInLink": "Sign in",
+  "boilerplate.signup.emptyNameError": "Name is empty",
+  "boilerplate.signup.nameLengthError": "Name length is wrong",
+  "boilerplate.signup.emptyPasswordError": "Password is empty",
+  "boilerplate.signup.passwordLengthError": "Password length must be greater than 5 and less than 20",
+  "boilerplate.signup.emptyEmailError": "Email is empty",
+  "boilerplate.signup.emptyCompanyNameError": "Company name is empty",
+
+  "boilerplate.CompanyPage.header": "COMPANY AND PROJECTS",
+  "boilerplate.CompanyPage.downloadButton.title": "Download file(-s)",
+  "boilerplate.CompanyPage.viewerButton.title": "View",
+  "boilerplate.CompanyPage.compareButton.title": "Compare files",
+  "boilerplate.CompanyPage.ilsCheckButton.title": "ILS 1.0 Check",
+  "boilerplate.CompanyPage.formatChange.title": "Convert RVT to IFC and OBJ",
+  "boilerplate.CompanyPage.searchInput.placeholder": "Search",
+  "boilerplate.CompanyPage.gridTableButton.title": "Grid Table",
+  "boilerplate.CompanyPage.inlineTableButton.title": "Inline Table",
+  "boilerplate.CompanyPage.formatChangeSelect": "Format",
+  "boilerplate.CompanyPage.formatChangeSelect.allOption": "ALL",
+  "boilerplate.CompanyPage.uploadButton": "Upload",
+  "boilerplate.CompanyPage.uploadButtonTitle": "Upload",
+  "boilerplate.CompanyPage.uploadButtonTitle.noPermission": "You don't have permission",
+  "boilerplate.CompanyPage.addProject": "Add Project",
+  "boilerplate.CompanyPage.addProject.title": "Add project",
+  "boilerplate.CompanyPage.deleteProject.title": "Delete project(-s)",
+  "boilerplate.CompanyPage.deleteProject.cancel.title": "Cancel",
+  "boilerplate.CompanyPage.markupsCount.title": "Markups count",
+  "boilerplate.CompanyPage.issuesCount.title": "Issues count",
+  "boilerplate.CompanyPage.project.emptyProject": "Pleace Add files to view",
+  "boilerplate.CompanyPage.project.noProjects": "Pleace create a Project folder",
+  "boilerplate.CompanyPage.project.fileTable.Name": "Name",
+  "boilerplate.CompanyPage.project.fileTable.fileSize": "Size",
+  "boilerplate.CompanyPage.project.fileTable.created": "Created",
+  "boilerplate.CompanyPage.project.fileTable.Type": "Type",
+  "boilerplate.CompanyPage.project.fileTable.Version": "Version",
+  "boilerplate.CompanyPage.project.fileTable.markupsCount": "Markups",
+  "boilerplate.CompanyPage.project.fileTable.issuesCount": "Issues",
+
+  "boilerplate.ilsChecker.uploadInputPlaceholder": "Upload your file to make a check.",
+  "boilerplate.ilsChecker.uploadFileButton": "Upload file",
+  "boilerplate.ilsChecker.doneButton": "Done",
+
+  "boilerplate.ilsChecker.checkList.header": "What do you want to check",
+  "boilerplate.ilsChecker.checkList.3_1.header": "3.1 Project name",
+  "boilerplate.ilsChecker.checkList.3_1.listItem": "Make sure that uniform and consistent naming is used for (discipline) models within the project.",
+
+  "boilerplate.ilsChecker.checkList.3_2.header": "3.2 Local position and orientation",
+  "boilerplate.ilsChecker.checkList.3_2.listItem": "The local position of the building is coordinated and close to the origin.",
+
+  "boilerplate.ilsChecker.checkList.3_3.header": "3.3 Creating and naming levels",
+  "boilerplate.ilsChecker.checkList.3_3.listItem_1": "Ensure whithin a project, that all involved parties consistently use exactly the same naming, that can > be numerically sorted with a textual description.",
+  "boilerplate.ilsChecker.checkList.3_3.listItem_2": "Assign all objects to the correct level.",
+  "boilerplate.ilsChecker.checkList.3_3.listItem_3": "Ensure that uniform and consistent naming is used for (discipline) models within the project.",
+
+  "boilerplate.ilsChecker.checkList.3_4.header": "3.4 Correct use of entities",
+  "boilerplate.ilsChecker.checkList.3_4.listItem": "The local position of the building is coordinated and close to the origin.",
+
+  "boilerplate.ilsChecker.checkList.3_5.header": "3.5 Structure and naming",
+  "boilerplate.ilsChecker.checkList.3_5.listItem_1": "Consistently structure and name objects.",
+  "boilerplate.ilsChecker.checkList.3_5.listItem_2": "Correctly enter the object TYPE (ifcType, fcObjectType or ifcObjectTypeOverride).",
+  "boilerplate.ilsChecker.checkList.3_5.listItem_3": "Where possible, also correctly enter the name (ifcName or NameOverride).",
+
+  "boilerplate.ilsChecker.checkList.3_6.header": "3.6 Classification system",
+  "boilerplate.ilsChecker.checkList.3_6.listItem_1": "Apply the existing classification system used in the relevant country.",
+  "boilerplate.ilsChecker.checkList.3_6.listItem_2": "Assign to each object an element code.",
+
+  "boilerplate.ilsChecker.checkList.3_7.header": "3.7 Objects with correct materialization",
+  "boilerplate.ilsChecker.checkList.3_7.listItem": "Assign objects with a material description (ifcMaterial).",
+
+  "boilerplate.ilsChecker.checkList.3_8.header": "3.8 Duplicates and intersections",
+  "boilerplate.ilsChecker.checkList.3_8.listItem": "There are no duplicates or intersections permitted. Make sure this is checked in IFC.",
+
+  "boilerplate.ilsChecker.checkList.4_1.header": "4.1 LoadBearing",
+  "boilerplate.ilsChecker.checkList.4_1.listItem": "Assign objects, if it's relevant, with the property LoadBearing.",
+
+  "boilerplate.ilsChecker.checkList.4_2.header": "4.2 Is Extrenal",
+  "boilerplate.ilsChecker.checkList.4_2.listItem": "Assign objects, if it's relevant with the property Extrenal.",
+
+  "boilerplate.ilsChecker.checkList.4_3.header": "4.3 FireRating",
+  "boilerplate.ilsChecker.checkList.4_3.listItem": "Assign objects, if it's relevant with the property FireRating.",
+
+  "boilerplate.ilsChecker.checkList.4_4.header": "4.4 Project Specific",
+  "boilerplate.ilsChecker.checkList.4_4.listItem": "Define which IFC properties you are using for each specific projects.",
+
+  "boilerplate.ilsChecker.checkList.checkButton": "CHECK",
+
+  "boilerplate.ilsChecker.progressPage.header": "Your request will be done",
+  "boilerplate.ilsChecker.progressPage.content1": "After finishing the process, reports",
+  "boilerplate.ilsChecker.progressPage.content2": "will be send to your email address",
+
+  "boilerplate.ilsChecker.complatedPage.header": "Your reaquest has been completed",
+  "boilerplate.ilsChecker.complatedPage.content": "Your report has been sent to your email address. This ILS file can be opened with the 3B Tool: IFC / ILS Check Results",
+
+  "boilerplate.ilsChecker.complatedPage.downloadButton": "Download File",
+
+  "boilerplate.formatChangePage.header": "Change the format",
+  "boilerplate.formatChangePage.uploadButton": "Upload File",
+  "boilerplate.formatChangePage.doneButton": "DONE",
+
+  "boilerplate.formatChange.progressPage.header": "Change the format",
+
+  "boilerplate.formatChange.complatePage.header": "Your file is ready to download",
+  "boilerplate.formatChange.complatePage.downloadButton": "Download",
+
+  "boilerplate.addProjectPortal.header": "A project file with the same name already exists",
+  "boilerplate.cantDeletePortal.header": "File is uploading, you can't delete it",
+  "boilerplate.emptyDelete.header": "Choose a project to delete ",
+  "boilerplate.sureToDelete.header": "Are you sure, that you want to delete?",
+  "boilerplate.sureToDelete.confirm": "Yes",
+  "boilerplate.sureToDelete.deny": "No",
+
+  "boilerplate.uploadFilePortal.header": " file already exists",
+  "boilerplate.heavyFilePortal.header": " file is too big",
+  "boilerplate.wrongFilePortal.header": "Upload a RVT or IFC file ",
+
+  "boilerplate.ilsCheckFilePortal.header": "Type of chosen file is not correct. Choose an IFC file.",
+
+  "boilerplate.ilsCheckListPortal.header": "Choose checks to run.",
+
+  "boilerplate.formatChangeFilePortal.header": "Type of chosen file is not correct. Choose a RVT file.",
+
+  "boilerplate.formatChangeEmptyPortal.header": "Pleace choose a file to change format.",
+
+  "boilerplate.portals.closeButton": "Close",
+
+  "boilerplate.viewer.staticBarButton.goHomeButton.title": "Back to Home",
+  "boilerplate.viewer.staticBarButton.issuesButton.title": "Create Issues",
+  "boilerplate.viewer.staticBarButton.markupsButton.title": "Create Markups",
+  "boilerplate.viewer.staticBarButton.pdfButton.title": "View pdf files",
+
+  "boilerplate.viewer.issues.newIssueButton.text": "New issue",
+  "boilerplate.viewer.issues.newIssueButtonAfterClick.text": "Click on model to set",
+
+  "boilerplate.viewer.issues.colapseContent.header": "#Open new issue",
+  "boilerplate.viewer.issues.colapseContent.titleInput.label": "Title",
+  "boilerplate.viewer.issues.colapseContent.descriptionInput.label": "Description",
+  "boilerplate.viewer.issues.colapseContent.assignedInput.label": "Assigned to",
+  "boilerplate.viewer.issues.colapseContent.dueDateInput.label": "Due date",
+  "boilerplate.viewer.issues.colapseContent.saveButton.text": "Save",
+  "boilerplate.viewer.issues.colapseContent.cancelButton.text": "Cancel",
+
+  "boilerplate.viewer.issuesCardContent.dateLabel": "Date",
+  "boilerplate.viewer.issuesCardContent.assignedLabel": "Assigned to",
+  "boilerplate.viewer.issuesCardContent.descriptionLabel": "Description",
+
+  "boilerplate.viewer.issuesCardContent.deleteButton.text": "Delete",
+
+  "boilerplate.viewer.issues.newMarkupButton.text": "New markup",
+  "boilerplate.viewer.markupCardContent.layerName.label": "Markup layer",
+  "boilerplate.viewer.markupCardContent.createdBy.label": "Created by",
+  "boilerplate.viewer.markupCardContent.createdAt.label": "Created at",
+
+  "boilerplate.viewer.markups.actionButtons.saveButton.text": "Save",
+  "boilerplate.viewer.markups.actionButtons.exitButton.text": "Exit",
+  "boilerplate.viewer.markups.actionButtons.getScreenshotButton.text": "ScreenShot",
+
+  "boilerplate.viewer.markups.tools.styleChangeButtons.widthLabel": "Markup Width",
+  "boilerplate.viewer.markups.tools.styleChangeButtons.opacityLabel": "Markup Opacity",
+  "boilerplate.viewer.markups.tools.styleChangeButtons.colorLabel": "Markup Color",
+
+  "boilerplate.viewer.markupCardContent.deleteButton.text": "Delete",
+
+  "boilerplate.progressBar.text": "Loading",
+
+  "boilerplate.viewer.issues.backToIssueListBtn.text": "Back",
+  "boilerplate.viewer.issuesCardContent.IDtitle": "ID",
+  "boilerplate.viewer.issuesCardContent.titleInCard": "Title",
+  "boilerplate.viewer.issuesCardContent.attachmentTitle": "Attachments",
+  "boilerplate.viewer.issuesCardContent.attachmentFirstPart": "Have ",
+  "boilerplate.viewer.issuesCardContent.attachmentSecondPart": " Attachments",
+  "boilerplate.viewer.issuesCardContent.addNewMarkupTitle": "Add new markup",
+
+  "boilerplate.viewer.issues.colapseContent.titleTooLong": "The title is too long",
+  "boilerplate.viewer.issues.colapseContent.descriptionTooLong": "The description is too long",
+  "boilerplate.viewer.issues.colapseContent.dropdownDefaultItem": "Choose a user",
+  "boilerplate.viewer.issues.colapseContent.needToPutPushpin.title": "You need to put pushpin for save",
+
+  "boilerplate.viewer.issues.saveNewIssue.allreadyExistsTitle": "Already exists with the same title. Please change it",
+
+  "boilerplate.viewer.issues.issueForMarkup.attachToPushpin": "Attach to pushpin",
+  "boilerplate.viewer.issues.issueForMarkup.createPushpinButton": "Create Pushpin",
+
+  "boilerplate.viewer.markupCardContent.attachedToPushpin": "Attached to pushpin",
+
+  "boilerplate.viewer.markupFromPushpin.showAllMarkupsButton": "Show all markups",
+  "boilerplate.viewer.markupFromPushpin.backToPushpinButton": "Back to pushpin",
+
+  "boilerplate.viewer.pdfExtension.searchInputPlaceholder": "Search",
+  "boilerplate.viewer.pdfExtension.backTo3DButton": "Back to 3D",
+
+  "boilerplate.adminPage.adminNavbar.allUsers": "All Users",
+  "boilerplate.adminPage.adminNavbar.project": "Projects",
+
+  "boilerplate.adminPage.adminContent.allUser.header": "All Users",
+  "boilerplate.adminPage.adminContent.filterDropdown.label": "Filters",
+  "boilerplate.adminPage.adminContent.filterDropdown.item.all": "All",
+  "boilerplate.adminPage.adminContent.filterDropdown.item.3b": "3B manager",
+  "boilerplate.adminPage.adminContent.filterDropdown.item.project": "Project Manager",
+  "boilerplate.adminPage.adminContent.filterDropdown.item.member": "Member",
+
+  "boilerplate.adminPage.adminContent.project.header": "All Projects",
+
+  "boilerplate.adminPage.userInformation.contact.label.country": "Country",
+  "boilerplate.adminPage.userInformation.contact.label.efficiency": "Efficiency",
+  "boilerplate.adminPage.userInformation.contact.label.email": "Email",
+  "boilerplate.adminPage.userInformation.contact.label.tel": "Tel.",
+
+  "boilerplate.adminPage.userInformation.activities.label.project": "Project",
+  "boilerplate.adminPage.userInformation.activities.label.files": "Uploaded Files",
+
+  "boilerplate.adminPage.userInformation.action.button.role": "Role",
+  "boilerplate.adminPage.userInformation.action.button.rights": "Rights",
+
+  "boilerplate.adminPage.setUserRole.header.firstPart": "In what role do you see ",
+  "boilerplate.adminPage.setUserRole.header.secondPart": "in your project?",
+
+  "boilerplate.adminPage.setUserRole.dropdown.placeholder": "Choose a role",
+  "boilerplate.adminPage.setUserRole.dropdown.item.3b": "3B Manager",
+  "boilerplate.adminPage.setUserRole.dropdown.item.project": "Project Manager",
+  "boilerplate.adminPage.setUserRole.dropdown.item.memeber": "Member",
+
+  "boilerplate.adminPage.setUserRole.action.button.send": "Send",
+
+  "boilerplate.adminPage.userRoleChanged.header": "Role changed",
+
+  "boilerplate.adminPage.userInformation.userRights.head": "Project",
+
+  "boilerplate.adminPage.userInformation.userRights.upload": "Ability to upload",
+  "boilerplate.adminPage.userInformation.userRights.delete": "Ability to delete documents",
+  "boilerplate.adminPage.userInformation.userRights.compare": "Compare right",
+  "boilerplate.adminPage.userInformation.userRights.watch": "Ability to watch",
+  "boilerplate.adminPage.userInformation.userRights.invite": "Right to invite",
+  "boilerplate.adminPage.userInformation.userRights.tools": "The right to use tools",
+
+  "boilerplate.adminPage.userInformation.userFiles.header": "Uploaded files",
+
+  "boilerplate.adminPage.setUserRights.header.firstPart": "What rights do you give  ",
+  "boilerplate.adminPage.setUserRights.header.secondPart": "in your project?",
+
+  "boilerplate.adminPage.userRightsChanged.header": "Rights changed",
+
+  "boilerplate.adminPage.rightSideContent.button.back": "Back",
+
+  "boilerplate.adminPage.Projects.title.allProjects": "All Projects"
+}
