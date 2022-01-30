@@ -25,9 +25,10 @@ const NavbarContainer = (props) => {
   const [windowSize, setWindowSize] = useState(true);
   const [smallToolsDropdownOpen, setSmallToolsDropdownOpen] = useState(false);
   const [toggleMenuButton, setToggleMenuButton] = useState(false);
+  const [changeMenuBool, setChangeMenuBool] = useState(false);
 
   const intl = useIntl();
-
+ 
   useEffect(() => {
     get_language(setLanguage);
   }, [window.localStorage.getItem("language_key")]);
@@ -51,7 +52,7 @@ const NavbarContainer = (props) => {
   const smallToolsToggle = () =>
     setSmallToolsDropdownOpen((smallToolsPrevState) => !smallToolsPrevState);
 
-  const menuToggle = () => props.changeMenu(!props.changeMenuBool);
+  const menuToggle = () => setChangeMenuBool(!changeMenuBool);
 
   const logout = (e) => {
     e.preventDefault();
@@ -72,7 +73,7 @@ const NavbarContainer = (props) => {
         changeLanguage={props.changeLanguage}
         // location={props.history.location}
         // changeMenu={props.changeMenu}
-        changeMenuBool={props.changeMenuBool}
+        changeMenuBool={changeMenuBool}
         language={language}
         dropdownOpen={dropdownOpen}
         userDropdownOpen={userDropdownOpen}
@@ -109,7 +110,7 @@ const mapStateToProps = (state) => ({
   user: state.session.user,
   logout_Is_fetching: state.auth.logoutIsFetching,
   projects: state.projects.items,
-  changeMenuBool: state.colapsedNavbar.changeMenu,
+  // changeMenuBool: state.colapsedNavbar.changeMenu,
   logout_redirect_login: state.auth.logout_redirect_login,
   dark_mode: state.dark_mode_reducer.mode,
 });

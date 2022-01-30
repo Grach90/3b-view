@@ -2,6 +2,7 @@ import React from "react";
 import Styles from "../styles.module.css";
 import ControlPanel from "./Control-panel";
 import ControlPanelToggle from "./Control-panel-toggle";
+import MenuPanel from "./Menu";
 
 const LoginNavbar = (props) => {
   return (
@@ -11,6 +12,7 @@ const LoginNavbar = (props) => {
       style={{ backgroundColor: props.dark_mode ? "black" : "white" }}
     >
       <div className={"container " + Styles.container}>
+        <MenuPanel {...props}/>
         {props.windowSize ? (
           <ControlPanel {...props} />
         ) : (
