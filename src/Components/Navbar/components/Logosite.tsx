@@ -1,11 +1,11 @@
 import React from "react";
-import {NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import Styles from "../styles.module.css";
 
 import Logo from "../../../static/images/3B-logo-only.png";
 
-const Logosite = props => {
+const Logosite = (props: any) => {
   return (
     <div className={Styles.logoContainer}>
       <NavLink

@@ -1,10 +1,10 @@
 import React from "react";
 import Styles from "../styles.module.css";
-import ControlPanel from "./Control-panel";
-import ControlPanelToggle from "./Control-panel-toggle";
+import ControlPanel from "./ControlPanel";
+import ControlPanelToggle from "./ControlPanelToggle";
 import MenuPanel from "./Menu";
 
-const LoginNavbar = (props) => {
+const LoginNavbar: React.FC = (props: any) => {
   return (
     <nav
       className={"navbar mx-auto navbar-expand w-100 " + Styles.nav}
@@ -12,7 +12,7 @@ const LoginNavbar = (props) => {
       style={{ backgroundColor: props.dark_mode ? "black" : "white" }}
     >
       <div className={"container " + Styles.container}>
-        <MenuPanel {...props}/>
+        <MenuPanel {...props} />
         {props.windowSize ? (
           <ControlPanel {...props} />
         ) : (

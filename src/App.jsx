@@ -1,7 +1,7 @@
-import React, { useState, useEffect, useLayoutEffect } from "react";
+import React, { useState, useLayoutEffect } from "react";
 import { IntlProvider } from "react-intl";
 
-import Navbar from "./Components/Navbar/container";
+import Navbar from "./Components/Navbar/Container";
 
 import en from "./translation/en.json";
 import nl from "./translation/nl.json";
@@ -22,9 +22,9 @@ function App() {
       function updateSize() {
         setSize([window.innerWidth, window.innerHeight]);
       }
-      window.addEventListener('resize', updateSize);
+      window.addEventListener("resize", updateSize);
       updateSize();
-      return () => window.removeEventListener('resize', updateSize);
+      return () => window.removeEventListener("resize", updateSize);
     }, []);
     return size;
   }
@@ -37,11 +37,13 @@ function App() {
         return en;
       case "nl":
         return nl;
+      default:
+        return en;
     }
   };
   return (
     <IntlProvider locale={language_key} messages={language(language_key)}>
-      <Navbar window_width={window_width}/>
+      <Navbar window_width={window_width} />
       <div className="App">It works!</div>
     </IntlProvider>
   );

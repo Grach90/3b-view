@@ -17,7 +17,7 @@ import darkModeIcon from "../../../static/images/darkModeIcon.png";
 import Logout from "../../../static/images/iconLogout.png";
 import LogoutLight from "../../../static/images/iconLogoutLight.png";
 
-const ControlPanelToggle = (props) => {
+const ControlPanelToggle = (props: any) => {
   return (
     <div
       style={{
@@ -62,6 +62,7 @@ const ControlPanelToggle = (props) => {
             marginLeft: "-15px",
             width: "55px",
             padding: "5px",
+            minWidth: "0",
           }}
         >
           <Dropdown
@@ -195,7 +196,10 @@ const ControlPanelToggle = (props) => {
             </button>
           </div>
           <div className="nav-link" style={{ padding: "5px 0" }}>
-            <form onSubmit={props.logout} className={Styles.logout}>
+            <form
+              // onSubmit={props.logout}
+              className={Styles.logout}
+            >
               <label
                 // onClick={() => click()}
                 htmlFor="logout"

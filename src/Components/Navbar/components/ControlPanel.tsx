@@ -15,7 +15,7 @@ import darkModeIcon from "../../../static/images/darkModeIcon.png";
 import Logout from "../../../static/images/iconLogout.png";
 import LogoutLight from "../../../static/images/iconLogoutLight.png";
 
-const ControlPanel = (props) => {
+const ControlPanel = (props: any) => {
   return (
     <div
       style={{
@@ -127,7 +127,10 @@ const ControlPanel = (props) => {
         </button>
       </div>
       <div className="nav-link" style={{ padding: "8px 15px 8px 6px" }}>
-        <form onSubmit={props.logout} className={Styles.logout}>
+        <form
+          // onSubmit={props.logout}
+          className={Styles.logout}
+        >
           <label
             htmlFor="logout"
             title={props.intl.formatMessage({

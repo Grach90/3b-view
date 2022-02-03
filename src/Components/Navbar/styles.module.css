@@ -112,6 +112,7 @@ button:hover {
 .dropMenu {
   background: #111111;
   color: #bfbfbf;
+  min-width: 0;
 }
 
 .dropMenuLight {
