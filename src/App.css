@@ -2,3 +2,14 @@
   font-family: Montserrat-Regular;
   src: url(../src/fonts/Montserrat-Regular.ttf);
 }
+
+.mainContainer {
+  position: relative;
+}
+
+.contentContainer {
+  position: absolute;
+  width: 100%;
+  top: 80px;
+  min-height: calc(100vh - 80px);
+}

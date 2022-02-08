@@ -1,7 +1,9 @@
-import React, { useState, useLayoutEffect } from "react";
+import React, { useState, useLayoutEffect, useEffect } from "react";
 import { IntlProvider } from "react-intl";
 
 import Navbar from "./Components/Navbar/Container";
+import HomePage from "./Components/HomePage/Container";
+import LoginPage from "./Components/Login/LoginContainer";
 
 import en from "./translation/en.json";
 import nl from "./translation/nl.json";
@@ -29,6 +31,13 @@ function App() {
     return size;
   }
 
+  useEffect(() => {
+    const language_key_LS = !!window.localStorage.getItem("language_key")
+      ? window.localStorage.getItem("language_key")
+      : "nl";
+    setLanguageKey(language_key_LS);
+  }, []);
+
   const [window_width] = useWindowSize();
 
   const language = (language_key) => {
@@ -43,8 +52,12 @@ function App() {
   };
   return (
     <IntlProvider locale={language_key} messages={language(language_key)}>
-      <Navbar window_width={window_width} />
-      <div className="App">It works!</div>
+      <div className="mainContainer">
+        <Navbar window_width={window_width} />
+        <div className="contentContainer">
+          <HomePage />
+        </div>
+      </div>
     </IntlProvider>
   );
 }

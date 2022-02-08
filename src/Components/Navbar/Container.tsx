@@ -64,33 +64,30 @@ const NavbarContainer: React.FC<Iprop> = (props) => {
   // };
 
   return (
-    <div>
-      {/* {props.logout_redirect_login && <Redirect to="/login" />} */}
-      <Viewer
-        user={"Hrachya Nalbandyan"}
-        logged_in={false}
-        logout={false}
-        // logout_Is_fetching={props.logout_Is_fetching}
-        dark_mode={false}
-        // set_dark_mode={props.set_dark_mode}
-        // changeLanguage={props.changeLanguage}
-        // location={props.history.location}
-        // changeMenu={props.changeMenu}
-        changeMenuBool={changeMenuBool}
-        language={language}
-        dropdownOpen={dropdownOpen}
-        userDropdownOpen={userDropdownOpen}
-        windowSize={windowSize}
-        smallToolsDropdownOpen={smallToolsDropdownOpen}
-        toggleMenuButton={toggleMenuButton}
-        toggle={toggle}
-        userToggle={userToggle}
-        smallToolsToggle={smallToolsToggle}
-        menuToggle={menuToggle}
-        // click={click}
-        intl={intl}
-      />
-    </div>
+    <Viewer
+      user={"Hrachya Nalbandyan"}
+      logged_in={false}
+      logout={false}
+      // logout_Is_fetching={props.logout_Is_fetching}
+      dark_mode={false}
+      // set_dark_mode={props.set_dark_mode}
+      // changeLanguage={props.changeLanguage}
+      // location={props.history.location}
+      // changeMenu={props.changeMenu}
+      changeMenuBool={changeMenuBool}
+      language={language}
+      dropdownOpen={dropdownOpen}
+      userDropdownOpen={userDropdownOpen}
+      windowSize={windowSize}
+      smallToolsDropdownOpen={smallToolsDropdownOpen}
+      toggleMenuButton={toggleMenuButton}
+      toggle={toggle}
+      userToggle={userToggle}
+      smallToolsToggle={smallToolsToggle}
+      menuToggle={menuToggle}
+      // click={click}
+      intl={intl}
+    />
   );
 };
 

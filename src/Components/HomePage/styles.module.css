@@ -1,0 +1,124 @@
+@font-face {
+  font-family: Montserrat-ExtraBold;
+  src: url(../../fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(../../fonts/Montserrat-Regular.ttf);
+}
+
+.homeCont {
+  max-width: 1820px;
+  font-family: "Montserrat";
+}
+
+.row {
+  min-height: calc(100vh - 80px);
+  display: flex;
+}
+
+.header {
+  font-size: 60px;
+  font-family: "Montserrat-ExtraBold";
+}
+
+.text {
+  font-size: 18px;
+  font-family: "Montserrat-Regular";
+}
+
+.leftPart {
+  padding-left: 100px;
+}
+
+.rightPart {
+  padding-right: 100px;
+}
+
+.text_of_button {
+  width: 195px;
+  height: 45px;
+  background-color: #931b80;
+  color: white;
+  font-size: 18px;
+  font-family: "Montserrat-Regular";
+  margin-right: 16px;
+}
+
+@media only screen and (max-width: 1120px) {
+  .header {
+    font-size: 40px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .leftPart {
+    padding-left: 50px;
+    max-width: 550px;
+  }
+
+  .rightPart {
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .leftPartParent {
+    max-width: 52%;
+  }
+
+  .leftPart {
+    padding-left: 30px;
+  }
+
+  .rightPart {
+    padding-right: 20px;
+    max-width: 40%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .rightPart {
+    padding-right: 20px;
+    max-width: 45%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    font-size: 28px;
+  }
+
+  .leftPartParent {
+    max-width: 100%;
+    margin: 30px auto;
+  }
+
+  .rightPart {
+    max-width: 75%;
+    margin: auto;
+  }
+
+  .text_of_button {
+    width: 150px;
+    height: 35px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .rightPart {
+    max-width: 80%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .rightPart {
+    max-width: 90%;
+    margin: auto;
+  }
+}
