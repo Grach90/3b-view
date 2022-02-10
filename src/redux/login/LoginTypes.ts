@@ -5,3 +5,15 @@ export enum LoginActionTypes {
   LOGOUT_IS_FETCHING = "LOGOUT_IS_FETCHING",
   LOGOUT_REDIRECT_LOGIN = "LOGOUT_REDIRECT_LOGIN",
 }
+
+interface loginInterface {
+  email: string;
+  password: string;
+  isFetching: boolean;
+}
+
+export interface loginState {
+  login: loginInterface;
+  logoutIsFetching: boolean;
+  logout_redirect_login: boolean;
+}

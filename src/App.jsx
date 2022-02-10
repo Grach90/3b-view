@@ -55,7 +55,8 @@ function App() {
       <div className="mainContainer">
         <Navbar window_width={window_width} />
         <div className="contentContainer">
-          <HomePage />
+          {/* <HomePage /> */}
+          <LoginPage />
         </div>
       </div>
     </IntlProvider>

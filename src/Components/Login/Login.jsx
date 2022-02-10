@@ -12,7 +12,9 @@ import logo from "../../static/images/undraw_dev_productivity_umsq.png";
 
 const Login = (props) => {
   const [iconChacked, setIconChacked] = useState({ chacked: true });
-  const dark_mode = useSelector((state) => state.dark_mode_reducer.mode);
+  const dark_mode = false;
+  const state = useSelector((state) => state);
+  console.log("state",state.LoginReducer);
 
   return (
     <div className="h-100">

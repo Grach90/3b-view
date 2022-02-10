@@ -1,6 +1,6 @@
-import { LoginActionTypes } from "./LoginTypes";
+import { LoginActionTypes, loginState } from "./LoginTypes";
 
-const initState = {
+const initState: loginState = {
   login: {
     email: "",
     password: "",
@@ -10,7 +10,7 @@ const initState = {
   logout_redirect_login: false,
 };
 
-export default (state = initState, action) => {
+const LoginReducer = (state = initState, action: any):loginState => {
   switch (action.type) {
     case LoginActionTypes.CHANGE_LOGIN_EMAIL: {
       return {
@@ -39,7 +39,7 @@ export default (state = initState, action) => {
         },
       };
     }
-    case LoginActionTypes.LOGIN_IS_FETCHING: {
+    case LoginActionTypes.LOGOUT_IS_FETCHING: {
       return {
         ...state,
         logoutIsFetching: action.bool,
@@ -55,3 +55,5 @@ export default (state = initState, action) => {
       return state;
   }
 };
+
+export default LoginReducer;

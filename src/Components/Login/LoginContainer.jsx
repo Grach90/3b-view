@@ -5,12 +5,12 @@ import {FormattedMessage} from "react-intl";
 import Login from "./Login";
 import messages from "./messages";
 
-import {login, getError} from "redux/sessions/sessions-actions";
+// import {login, getError} from "redux/sessions/sessions-actions";
 import {
   changeLoginEmail,
   changeLoginPassword,
   changeLoginIsFetching,
-} from "redux/auth/auth-actions";
+} from "../../redux/login/LoginActions";
 
 import PropTypes from "prop-types";
 
@@ -81,32 +81,27 @@ const LoginContainer = props => {
       is_fetching={props.is_fetching}
       dark_mode={props.dark_mode}
       forget_password={forget_password}
-      error={error}
+      // error={error}
     />
   );
 };
 
-LoginContainer.propTypes = {
-  email: PropTypes.string,
-  password: PropTypes.string,
-  error: PropTypes.string,
-  is_fetching: PropTypes.bool,
-};
+// const mapStateToProps = state => {
+//   return {
+//     email: state.auth.login.email,
+//     password: state.auth.login.password,
+//     error: state.session.errorLogin,
+//     is_fetching: state.auth.login.isFetching,
+//     dark_mode: state.dark_mode_reducer.mode,
+//   };
+// };
 
-const mapStateToProps = state => {
-  return {
-    email: state.auth.login.email,
-    password: state.auth.login.password,
-    error: state.session.errorLogin,
-    is_fetching: state.auth.login.isFetching,
-    dark_mode: state.dark_mode_reducer.mode,
-  };
-};
+// export default connect(mapStateToProps, {
+//   // login,
+//   changeLoginEmail,
+//   changeLoginPassword,
+//   // getError,
+//   changeLoginIsFetching,
+// })(LoginContainer);
 
-export default connect(mapStateToProps, {
-  login,
-  changeLoginEmail,
-  changeLoginPassword,
-  getError,
-  changeLoginIsFetching,
-})(LoginContainer);
+export default LoginContainer;

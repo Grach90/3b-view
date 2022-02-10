@@ -1,149 +1,146 @@
 @font-face {
-  font-family: Montserrat-Bold;
-  src: url(../../../fonts/Montserrat-Bold.ttf);
+    font-family: Montserrat-Bold;
+    src: url(../../fonts/Montserrat-Bold.ttf);
 }
 
 @font-face {
-  font-family: Montserrat-Regular;
-  src: url(../../../fonts/Montserrat-Regular.ttf);
+    font-family: Montserrat-Regular;
+    src: url(../../fonts/Montserrat-Regular.ttf);
 }
 
 @font-face {
-  font-family: Montserrat-SemiBold;
-  src: url(../../../fonts/Montserrat-SemiBold.ttf);
+    font-family: Montserrat-SemiBold;
+    src: url(../../fonts/Montserrat-SemiBold.ttf);
 }
 
 @font-face {
-  font-family: Montserrat-Medium;
-  src: url(../../../fonts/Montserrat-Medium.ttf);
+    font-family: Montserrat-Medium;
+    src: url(../../fonts/Montserrat-Medium.ttf);
 }
 
 .text {
-  max-width: 410px;
-  width: 100%;
-  background-color: #313131;
-  border: none;
-  outline-style: none;
-  color: #c4c4c4;
-  height: 40px;
+    max-width: 410px;
+    width: 100%;
+    background-color: #313131;
+    border: none;
+    outline-style: none;
+    color: #c4c4c4;
+    height: 40px;
 }
 
 .textLight {
-  max-width: 410px;
-  width: 100%;
-  outline-style: none;
-  height: 40px;
+    max-width: 410px;
+    width: 100%;
+    outline-style: none;
+    height: 40px;
 }
 
 .text:focus {
-  background-color: #313131;
-  -webkit-text-fill-color: #c4c4c4;
-  box-shadow: none;
-  border: 1px solid #7b7b7b;
-  opacity: 1;
+    background-color: #313131;
+    -webkit-text-fill-color: #c4c4c4;
+    box-shadow: none;
+    border: 1px solid #7b7b7b;
+    opacity: 1;
 }
 
 .text:-webkit-autofill {
-  -webkit-box-shadow: inset 0px 0px 0px 50px #313131 !important;
-  -webkit-text-fill-color: #c4c4c4;
-  transition: background-color 500000000s ease-in-out 0s;
-  -webkit-transition: background-color 500000000s ease-in-out 0s;
-  -moz-transition: background-color 500000000s ease-in-out 0s;
-  -ms-transition: background-color 500000000s ease-in-out 0s;
-  -o-transition: background-color 500000000s ease-in-out 0s;
+    -webkit-box-shadow: inset 0px 0px 0px 50px #313131 !important;
+    -webkit-text-fill-color: #c4c4c4;
+    transition: background-color 500000000s ease-in-out 0s;
+    -webkit-transition: background-color 500000000s ease-in-out 0s;
+    -moz-transition: background-color 500000000s ease-in-out 0s;
+    -ms-transition: background-color 500000000s ease-in-out 0s;
+    -o-transition: background-color 500000000s ease-in-out 0s;
 }
 
 .textLight {
-  border: 1px solid #d3d3d3;
+    border: 1px solid #d3d3d3;
 }
 
 .header {
-  font-size: 30px;
-  font-family: "Montserrat-Bold";
-  color: white;
+    font-size: 30px;
+    font-family: "Montserrat-Bold";
+    color: white;
 }
 
 .formContnet {
-  font-family: "Montserrat-Regular";
-  max-width: 410px;
-  width: 100%;
+    font-family: "Montserrat-Regular";
+    max-width: 410px;
+    width: 100%;
 }
 
 .subBtn {
-  background: #931b80;
-  width: 118px;
-  height: 35px;
+    background: #931b80;
+    width: 118px;
+    height: 35px;
 }
 
 .subBtn span {
-  font-size: 14px;
-  font-family: "Montserrat-SemiBold";
-  color: white;
+    font-size: 14px;
+    font-family: "Montserrat-SemiBold";
+    color: white;
 }
 
 .signupRef {
-  font-size: 12px;
-  font-family: "Montserrat-Medium";
-  color: white;
-  float: right;
-  text-decoration: none;
-  color: white;
+    font-size: 12px;
+    font-family: "Montserrat-Medium";
+    color: white;
+    float: right;
+    text-decoration: none;
+    color: white;
 }
 
 .signupRefLight {
-  font-size: 12px;
-  font-family: "Montserrat-Medium";
-  color: white;
-  float: right;
-  text-decoration: none;
-  color: black;
+    font-size: 12px;
+    font-family: "Montserrat-Medium";
+    color: white;
+    float: right;
+    text-decoration: none;
+    color: black;
 }
 
 .signupRef:hover {
-  color: #616161;
+    color: #616161;
 }
 
 .signupRefLight:hover {
-  color: #917878;
+    color: #917878;
 }
 
 .hover:hover {
-  color: black;
+    color: black;
 }
 
 .signinImg {
-  width: 280.51px;
-  height: 242.08px;
+    width: 280.51px;
+    height: 242.08px;
 }
 
 @media only screen and (max-width: 375px) {
-  .signinImg {
-    width: 198.08px;
-    height: 170.95px;
-  }
-
-  .text {
-    width: 278px;
-    height: 40px;
-  }
-
-  .textLight {
-    width: 278px;
-    height: 40px;
-  }
-
-  .formContnet {
-    width: 270px;
-  }
+    .signinImg {
+        width: 198.08px;
+        height: 170.95px;
+    }
+    .text {
+        width: 278px;
+        height: 40px;
+    }
+    .textLight {
+        width: 278px;
+        height: 40px;
+    }
+    .formContnet {
+        width: 270px;
+    }
 }
 
 .inputContainer {
-  position: relative;
+    position: relative;
 }
 
 .iconAye {
-  position: absolute;
-  right: 12px;
-  top: 10px;
-  font-size: 20px;
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    font-size: 20px;
 }
