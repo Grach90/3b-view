@@ -1,22 +1,22 @@
-import {LoginActionTypes} from "./LoginTypes";
+import { LoginActionTypes, LoginAction } from "./LoginTypes";
 
-export const changeLoginEmail = (value: string) => ({
+export const changeLoginEmail = (value: string): LoginAction => ({
   type: LoginActionTypes.CHANGE_LOGIN_EMAIL,
-  value,
+  payload: value,
 });
-export const changeLoginIsFetching = (bool: boolean) => ({
+export const changeLoginIsFetching = (bool: boolean): LoginAction => ({
   type: LoginActionTypes.LOGIN_IS_FETCHING,
-  bool,
+  payload: bool,
 });
-export const changeLoginPassword = (value: string) => ({
+export const changeLoginPassword = (value: string): LoginAction => ({
   type: LoginActionTypes.CHANGE_LOGIN_PASSWORD,
-  value,
+  payload: value,
 });
-export const changeLogoutFetching = (bool: boolean) => ({
+export const changeLogoutFetching = (bool: boolean): LoginAction => ({
   type: LoginActionTypes.LOGOUT_IS_FETCHING,
-  bool,
+  payload: bool,
 });
-export const redirect_to_login = (bool: boolean) => ({
+export const redirect_to_login = (bool: boolean): LoginAction => ({
   type: LoginActionTypes.LOGOUT_REDIRECT_LOGIN,
-  bool,
+  payload: bool,
 });

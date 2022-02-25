@@ -1,12 +1,12 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FormattedMessage } from "react-intl";
+
 import LoginNavbar from "./components";
 import Logosite from "./components/Logosite";
 
 import messages from "./messages";
-import { ViewerProps } from "./interface";
-
+import { ViewerIProps } from "./interface";
 import {
   Dropdown,
   DropdownToggle,
@@ -42,7 +42,7 @@ import darkModeIcon from "../../static/images/darkModeIcon.png";
 // smallToolsToggle = { smallToolsToggle };
 // menuToggle = { menuToggle };
 
-const Navbar: React.FC<ViewerProps> = (props) => {
+const Navbar: React.FC<ViewerIProps> = (props) => {
   return props.logged_in ? (
     <LoginNavbar {...props} />
   ) : (
@@ -52,7 +52,7 @@ const Navbar: React.FC<ViewerProps> = (props) => {
       style={{ backgroundColor: props.dark_mode ? "black" : "white" }}
     >
       <div className={"container " + Styles.container}>
-        <Logosite />
+        <Logosite dark_mode={props.dark_mode} logout={props.logout} />
         <div className="row">
           <div className="col">
             <ul
@@ -88,7 +88,7 @@ const Navbar: React.FC<ViewerProps> = (props) => {
                     <DropdownItem
                       onClick={() => {
                         window.localStorage.setItem("language_key", "en");
-                        // props.changeLanguage();
+                        props.changeLanguage();
                       }}
                       className={
                         props.dark_mode
@@ -102,7 +102,7 @@ const Navbar: React.FC<ViewerProps> = (props) => {
                     <DropdownItem
                       onClick={() => {
                         window.localStorage.setItem("language_key", "nl");
-                        // props.changeLanguage();
+                        props.changeLanguage();
                       }}
                       className={
                         props.dark_mode
@@ -134,10 +134,12 @@ const Navbar: React.FC<ViewerProps> = (props) => {
                       const value = !!window.localStorage.getItem("dark_mode")
                         ? window.localStorage.getItem("dark_mode")
                         : "false";
-                      const localValue = value === "true" ? "false" : "true";
-                      // const rteduxValue = value === "true" ? false : true;
-                      window.localStorage.setItem("dark_mode", localValue);
-                      // props.set_dark_mode(rteduxValue);
+                      const localValue: string =
+                        value === "true" ? "false" : "true";
+                      const rteduxValue: boolean =
+                        value === "true" ? false : true;
+                      localStorage.setItem("dark_mode", localValue);
+                      props.set_dark_mode(rteduxValue);
                     }}
                   >
                     <img
@@ -148,23 +150,23 @@ const Navbar: React.FC<ViewerProps> = (props) => {
                   </button>
                 </div>
               </li>
-              {/* {props.location.pathname === "/login" ||
-            props.location.pathname === "/signup" ? null : ( */}
-              <li
-                className={
-                  "nav-item px-2 h-100 d-flex align-items-center " +
-                  Styles.signInFont
-                }
-              >
-                <Link
-                  to="/login"
-                  className={`nav-link ${Styles.signInBtn} ${Styles.navLink} d-flex align-items-center justify-content-center btn`}
-                  style={{ color: "white" }}
+              {props.pathname === "/login" ||
+              props.pathname === "/signup" ? null : (
+                <li
+                  className={
+                    "nav-item px-2 h-100 d-flex align-items-center " +
+                    Styles.signInFont
+                  }
                 >
-                  <FormattedMessage {...messages.signIn} />
-                </Link>
-              </li>
-              {/* )} */}
+                  <Link
+                    to="/login"
+                    className={`nav-link ${Styles.signInBtn} ${Styles.navLink} d-flex align-items-center justify-content-center btn`}
+                    style={{ color: "white" }}
+                  >
+                    <FormattedMessage {...messages.signIn} />
+                  </Link>
+                </li>
+              )}
             </ul>
           </div>
         </div>

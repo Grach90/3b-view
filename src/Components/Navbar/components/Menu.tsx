@@ -4,6 +4,7 @@ import { FormattedMessage } from "react-intl";
 import { Collapse } from "reactstrap";
 import Logosite from "./Logosite";
 
+import { MenuIprops } from "../interface";
 import messages from "../messages";
 import Styles from "../styles.module.css";
 
@@ -12,11 +13,11 @@ import menuCloseIcon from "../../../static/images/baseline_close_white_18dp.png"
 import menuIconDark from "../../../static/images/baseline_menu_black_18dp.png";
 import menuCloseIconDark from "../../../static/images/baseline_close_black_18dp.png";
 
-const Menu = (props: any) => {
+const Menu: React.FC<MenuIprops> = (props) => {
   return (
     <>
       {!props.toggleMenuButton ? (
-        <Logosite dark_mode={props.dark_mode} />
+        <Logosite dark_mode={props.dark_mode} logout={props.logout} />
       ) : (
         <div style={{ display: "flex", alignItems: "center" }}>
           <button
@@ -37,10 +38,7 @@ const Menu = (props: any) => {
               alt=""
             />
           </button>
-          <Logosite
-            dark_mode={props.dark_mode}
-            dropdownOpen={props.dropdownOpen}
-          />
+          <Logosite dark_mode={props.dark_mode} logout={props.logout} />
         </div>
       )}
       {!props.toggleMenuButton ? (
@@ -130,7 +128,7 @@ const Menu = (props: any) => {
                   className={`nav-link ${
                     props.dark_mode ? Styles.navLink : Styles.navLinkLight
                   } h-100 d-flex align-items-center`}
-                  onClick={() => props.click()}
+                  // onClick={() => props.click()}
                 >
                   <FormattedMessage {...messages.company} />
                 </NavLink>
@@ -140,7 +138,7 @@ const Menu = (props: any) => {
                 <NavLink
                   to=""
                   // {`/${props.user.company_names[0]}/ilschecker`}
-                  onClick={() => props.click()}
+                  // onClick={() => props.click()}
                   // activeClassName={
                   //   props.dark_mode ? Styles.active : Styles.activeLight
                   // }
@@ -178,7 +176,7 @@ const Menu = (props: any) => {
               >
                 <NavLink
                   to={"/admin/all_users"}
-                  onClick={() => props.click()}
+                  // onClick={() => props.click()}
                   // activeClassName={
                   //   props.dark_mode ? Styles.active : Styles.activeLight
                   // }

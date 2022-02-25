@@ -10,12 +10,12 @@ import Styles from "./styles.module.css";
 import logo from "../../static/images/homePage22.png";
 import logoLight from "../../static/images/homePageLight.png";
 
-interface Iprops {
-  changeMenuBool: boolean;
-  changeMenu(arg: boolean): void;
-}
+// interface Iprops {
+//   changeMenuBool: boolean;
+//   changeMenu(arg: boolean): void;
+// }
 
-const Welcom: React.FC<Iprops> = (props) => {
+const Welcom: React.FC = () => {
   const [smallDevice, setSmallDevice] = useState(false);
   const dark_mode: boolean = false;
   // useSelector((state) => state.dark_mode_reducer.mode);
@@ -148,7 +148,7 @@ const Welcom: React.FC<Iprops> = (props) => {
           </div>
         </div>
       )}
-      {props.changeMenuBool && (
+      {/* {props.changeMenuBool && (
         <div
           style={{
             position: "absolute",
@@ -162,7 +162,7 @@ const Welcom: React.FC<Iprops> = (props) => {
           }}
           onClick={() => props.changeMenu(false)}
         ></div>
-      )}
+      )} */}
     </div>
   );
 };

@@ -17,3 +17,35 @@ export interface loginState {
   logoutIsFetching: boolean;
   logout_redirect_login: boolean;
 }
+
+interface ChangeLoginEmailAction {
+  type: LoginActionTypes.CHANGE_LOGIN_EMAIL;
+  payload: string;
+}
+
+interface ChangeLoginPasswordAction {
+  type: LoginActionTypes.CHANGE_LOGIN_PASSWORD;
+  payload: string;
+}
+
+interface LoginIsFetchingAction {
+  type: LoginActionTypes.LOGIN_IS_FETCHING;
+  payload: boolean;
+}
+
+interface LogoutIsFetchingAction {
+  type: LoginActionTypes.LOGOUT_IS_FETCHING;
+  payload: boolean;
+}
+
+interface LogoutRedirectLoginAction {
+  type: LoginActionTypes.LOGOUT_REDIRECT_LOGIN;
+  payload: boolean;
+}
+
+export type LoginAction =
+  | ChangeLoginEmailAction
+  | ChangeLoginPasswordAction
+  | LoginIsFetchingAction
+  | LogoutIsFetchingAction
+  | LogoutRedirectLoginAction;

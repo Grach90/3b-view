@@ -5,6 +5,7 @@ import {
   DropdownMenu,
   DropdownItem,
 } from "reactstrap";
+import { ControlPanelIProps } from "../interface";
 
 import Styles from "../styles.module.css";
 
@@ -15,7 +16,7 @@ import darkModeIcon from "../../../static/images/darkModeIcon.png";
 import Logout from "../../../static/images/iconLogout.png";
 import LogoutLight from "../../../static/images/iconLogoutLight.png";
 
-const ControlPanel = (props: any) => {
+const ControlPanel: React.FC<ControlPanelIProps> = (props) => {
   return (
     <div
       style={{
@@ -133,9 +134,9 @@ const ControlPanel = (props: any) => {
         >
           <label
             htmlFor="logout"
-            title={props.intl.formatMessage({
-              id: "boilerplate.Navbar.items.logOut",
-            })}
+            // title={props.intl.formatMessage({
+            //   id: "boilerplate.Navbar.items.logOut",
+            // })}
             className={`d-flex align-items-center justify-content-center ${
               props.dark_mode ? Styles.logOutLabel : Styles.logOutLabelLight
             }`}

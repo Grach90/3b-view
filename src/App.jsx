@@ -2,16 +2,17 @@ import React, { useState, useLayoutEffect, useEffect } from "react";
 import { IntlProvider } from "react-intl";
 
 import Navbar from "./Components/Navbar/Container";
-import HomePage from "./Components/HomePage/Container";
-import LoginPage from "./Components/Login/LoginContainer";
+import Routes from "./Routes/AllRoutes";
 
 import en from "./translation/en.json";
 import nl from "./translation/nl.json";
 
 import "./App.css";
+import { useTypedSelector } from "./hooks/useTypedSelector";
 
 function App() {
   const [language_key, setLanguageKey] = useState("nl");
+  const { changeLanguage } = useTypedSelector((state) => state.globalState);
   // const [window_width, setWindowWidth] = useState(0);
 
   // useEffect(() => {
@@ -36,7 +37,7 @@ function App() {
       ? window.localStorage.getItem("language_key")
       : "nl";
     setLanguageKey(language_key_LS);
-  }, []);
+  }, [changeLanguage]);
 
   const [window_width] = useWindowSize();
 
@@ -55,8 +56,7 @@ function App() {
       <div className="mainContainer">
         <Navbar window_width={window_width} />
         <div className="contentContainer">
-          {/* <HomePage /> */}
-          <LoginPage />
+          <Routes />
         </div>
       </div>
     </IntlProvider>

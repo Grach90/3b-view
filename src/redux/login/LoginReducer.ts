@@ -1,4 +1,4 @@
-import { LoginActionTypes, loginState } from "./LoginTypes";
+import { LoginActionTypes, loginState, LoginAction } from "./LoginTypes";
 
 const initState: loginState = {
   login: {
@@ -10,14 +10,14 @@ const initState: loginState = {
   logout_redirect_login: false,
 };
 
-const LoginReducer = (state = initState, action: any):loginState => {
+const LoginReducer = (state = initState, action: LoginAction): loginState => {
   switch (action.type) {
     case LoginActionTypes.CHANGE_LOGIN_EMAIL: {
       return {
         ...state,
         login: {
           ...state.login,
-          email: action.value,
+          email: action.payload,
         },
       };
     }
@@ -26,7 +26,7 @@ const LoginReducer = (state = initState, action: any):loginState => {
         ...state,
         login: {
           ...state.login,
-          password: action.value,
+          password: action.payload,
         },
       };
     }
@@ -35,20 +35,20 @@ const LoginReducer = (state = initState, action: any):loginState => {
         ...state,
         login: {
           ...state.login,
-          isFetching: action.bool,
+          isFetching: action.payload,
         },
       };
     }
     case LoginActionTypes.LOGOUT_IS_FETCHING: {
       return {
         ...state,
-        logoutIsFetching: action.bool,
+        logoutIsFetching: action.payload,
       };
     }
     case LoginActionTypes.LOGOUT_REDIRECT_LOGIN: {
       return {
         ...state,
-        logout_redirect_login: action.bool,
+        logout_redirect_login: action.payload,
       };
     }
     default:

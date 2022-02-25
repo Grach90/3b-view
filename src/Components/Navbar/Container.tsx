@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-// import { withRouter, Redirect } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 // import { compose } from "redux";
 // import { connect } from "react-redux";
 import { useIntl } from "react-intl";
@@ -16,6 +16,8 @@ import Viewer from "./Viewer";
 // import { set_dark_mode } from "../../redux/dark_mode/dark-mode-actions";
 
 import { handleResize, get_language } from "./usEffect_functions";
+import { useTypedSelector } from "../../hooks/useTypedSelector";
+import { useActions } from "../../hooks/useActions";
 
 interface Iprop {
   window_width: number;
@@ -29,6 +31,12 @@ const NavbarContainer: React.FC<Iprop> = (props) => {
   const [smallToolsDropdownOpen, setSmallToolsDropdownOpen] = useState(false);
   const [toggleMenuButton, setToggleMenuButton] = useState(false);
   const [changeMenuBool, setChangeMenuBool] = useState(false);
+
+  const { dark_mode } = useTypedSelector((state) => state.globalState);
+  const { logoutIsFetching } = useTypedSelector((state) => state.loginState);
+  const { set_dark_mode, changeLanguage } = useActions();
+
+  const { pathname } = useLocation();
 
   const intl = useIntl();
 
@@ -68,11 +76,11 @@ const NavbarContainer: React.FC<Iprop> = (props) => {
       user={"Hrachya Nalbandyan"}
       logged_in={false}
       logout={false}
-      // logout_Is_fetching={props.logout_Is_fetching}
-      dark_mode={false}
-      // set_dark_mode={props.set_dark_mode}
-      // changeLanguage={props.changeLanguage}
-      // location={props.history.location}
+      pathname={pathname}
+      logout_Is_fetching={logoutIsFetching}
+      dark_mode={dark_mode}
+      set_dark_mode={set_dark_mode}
+      changeLanguage={changeLanguage}
       // changeMenu={props.changeMenu}
       changeMenuBool={changeMenuBool}
       language={language}
